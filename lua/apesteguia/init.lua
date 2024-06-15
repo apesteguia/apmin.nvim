@@ -104,8 +104,8 @@ local set_groups = function()
 		Boolean = { fg = c.cyan, bg = c.none, bold = cfg.boolean_style.bold, italic = cfg.boolean_style.italic }, -- true , false
 		Function = { fg = c.blue, bg = c.none, bold = cfg.function_style.bold, italic = cfg.function_style.italic },
 		Identifier = { fg = c.blue, bg = c.none }, -- any variable name
-		String = { fg = c.cyan, bg = c.none }, -- Any string
-		Character = { fg = c.cyan }, -- any character constant: 'c', '\n'
+		String = { fg = c.green, bg = c.none }, -- Any string
+		Character = { fg = c.green }, -- any character constant: 'c', '\n'
 		Number = { fg = c.cyan }, -- a number constant: 5
 		Float = { fg = c.cyan }, -- a floating point constant: 2.3e10
 		Statement = { fg = c.blue }, -- any statement
