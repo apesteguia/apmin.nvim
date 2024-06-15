@@ -7,12 +7,12 @@ M.dark = {
 	-- Normal
 	black = "#111111",
 	red = "#ff968c",
-	green = "#61957f",
+	green = "#BA7C73",
 	yellow = "#ffc591",
 	blue = "#688AB8",
 	magenta = "#6B3A67",
-	cyan = "#7bb099",
-	white = "#d1d1d1",
+	cyan = "#9D7CA1",
+	white = "#fafafa",
 	-- Bright
 	bright_black = "#4c4c4b",
 	bright_red = "#ffafa5",
@@ -21,7 +21,7 @@ M.dark = {
 	bright_blue = "#a6cded",
 	bright_magenta = "#f7b4e1",
 	bright_cyan = "#94c9b2",
-	bright_white = "#eaeaea",
+	bright_white = "#fafafa",
 	-- Grays
 	gray01 = "#222221",
 	gray02 = "#2a2a29",
