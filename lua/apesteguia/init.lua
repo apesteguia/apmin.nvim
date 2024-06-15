@@ -103,7 +103,7 @@ local set_groups = function()
 		Repeat = { fg = c.blue, bg = c.none, bold = cfg.keyword_style.bold, italic = cfg.keyword_style.italic }, -- italic any other keyword
 		Boolean = { fg = c.cyan, bg = c.none, bold = cfg.boolean_style.bold, italic = cfg.boolean_style.italic }, -- true , false
 		Function = { fg = c.blue, bg = c.none, bold = cfg.function_style.bold, italic = cfg.function_style.italic },
-		Identifier = { fg = c.blue, bg = c.none }, -- any variable name
+		Identifier = { fg = c.white, bg = c.none }, -- any variable name
 		String = { fg = c.green, bg = c.none }, -- Any string
 		Character = { fg = c.green }, -- any character constant: 'c', '\n'
 		Number = { fg = c.cyan }, -- a number constant: 5
@@ -111,7 +111,7 @@ local set_groups = function()
 		Statement = { fg = c.blue }, -- any statement
 		Label = { fg = c.cyan }, -- case, default, etc.
 		Operator = { fg = c.yellow }, -- sizeof", "+", "*", etc.
-		Exception = { fg = c.yellow }, -- try, catch, throw
+		Exception = { fg = c.cyan }, -- try, catch, throw
 		PreProc = { fg = c.red }, -- generic Preprocessor
 		Include = { fg = c.blue }, -- preprocessor #include
 		Define = { fg = c.cyan }, -- preprocessor #define
