@@ -93,9 +93,9 @@ local set_groups = function()
 		healthSuccess = { fg = c.green },
 		healthWarning = { fg = c.yellow },
 		--common
-		Type = { fg = c.yellow }, -- int, long, char, etc.
+		Type = { fg = c.white }, -- int, long, char, etc.
 		StorageClass = { fg = c.blue }, -- static, register, volatile, etc.
-		Structure = { fg = c.fg }, -- struct, union, enum, etc.
+		Structure = { fg = c.blue }, -- struct, union, enum, etc.
 		Constant = { fg = c.blue }, -- any constant
 		Comment = { fg = c.gray05, bg = c.none, bold = cfg.comment_style.bold, italic = cfg.comment_style.italic }, -- italic comments
 		Conditional = { fg = c.cyan, bg = c.none, bold = cfg.keyword_style.bold, italic = cfg.keyword_style.italic }, -- italic if, then, else, endif, switch, etc.
