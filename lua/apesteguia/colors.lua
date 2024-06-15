@@ -2,10 +2,10 @@ local M = {}
 
 M.dark = {
 	-- Basic
-	bg = "#000000",
+	bg = "#111111",
 	fg = "#fafafa",
 	-- Normal
-	black = "#000000",
+	black = "#111111",
 	red = "#ff968c",
 	green = "#61957f",
 	yellow = "#ffc591",
