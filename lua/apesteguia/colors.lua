@@ -2,15 +2,15 @@ local M = {}
 
 M.dark = {
 	-- Basic
-	bg = "#1c1c1c",
+	bg = "#000000",
 	fg = "#fafafa",
 	-- Normal
-	black = "#1c1c1c",
+	black = "#000000",
 	red = "#ff968c",
 	green = "#61957f",
 	yellow = "#ffc591",
-	blue = "#074cba",
-	magenta = "#de9bc8",
+	blue = "#688AB8",
+	magenta = "#6B3A67",
 	cyan = "#7bb099",
 	white = "#d1d1d1",
 	-- Bright
