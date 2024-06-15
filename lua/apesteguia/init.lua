@@ -93,14 +93,14 @@ local set_groups = function()
 		healthSuccess = { fg = c.green },
 		healthWarning = { fg = c.yellow },
 		--common
-		Type = { fg = c.cyan }, -- int, long, char, etc.
-		StorageClass = { fg = c.cyan }, -- static, register, volatile, etc.
+		Type = { fg = c.yellow }, -- int, long, char, etc.
+		StorageClass = { fg = c.blue }, -- static, register, volatile, etc.
 		Structure = { fg = c.fg }, -- struct, union, enum, etc.
 		Constant = { fg = c.cyan }, -- any constant
 		Comment = { fg = c.gray05, bg = c.none, bold = cfg.comment_style.bold, italic = cfg.comment_style.italic }, -- italic comments
-		Conditional = { fg = c.blue, bg = c.none, bold = cfg.keyword_style.bold, italic = cfg.keyword_style.italic }, -- italic if, then, else, endif, switch, etc.
-		Keyword = { fg = c.blue, bg = c.none, bold = cfg.keyword_style.bold, italic = cfg.keyword_style.italic }, -- italic for, do, while, etc.
-		Repeat = { fg = c.blue, bg = c.none, bold = cfg.keyword_style.bold, italic = cfg.keyword_style.italic }, -- italic any other keyword
+		Conditional = { fg = c.cyan, bg = c.none, bold = cfg.keyword_style.bold, italic = cfg.keyword_style.italic }, -- italic if, then, else, endif, switch, etc.
+		Keyword = { fg = c.cyan, bg = c.none, bold = cfg.keyword_style.bold, italic = cfg.keyword_style.italic }, -- italic for, do, while, etc.
+		Repeat = { fg = c.cyan, bg = c.none, bold = cfg.keyword_style.bold, italic = cfg.keyword_style.italic }, -- italic any other keyword
 		Boolean = { fg = c.cyan, bg = c.none, bold = cfg.boolean_style.bold, italic = cfg.boolean_style.italic }, -- true , false
 		Function = { fg = c.blue, bg = c.none, bold = cfg.function_style.bold, italic = cfg.function_style.italic },
 		Identifier = { fg = c.blue, bg = c.none }, -- any variable name
